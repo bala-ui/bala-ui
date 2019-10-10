@@ -399,7 +399,7 @@ ol {
 }
 
 .hero-text h2 {
-	font-size: 170px;
+	font-size: 100px;
 	line-height: normal;
 	margin-bottom: 20px;
 }
@@ -425,12 +425,20 @@ ol {
 	font-size: 24px;
 	color: #808181;
 	margin-bottom: 15px;
+	float: left;
 }
 
 .hero-info ul li span {
 	color: #40424a;
 	display: inline-block;
-	min-width: 220px;
+	min-width: 180px;
+	float: left;
+}
+
+.hero-info ul li span.info-value {
+	margin-left: 10px;
+	float: right;
+	width: 500px;
 }
 
 .hero-info ul li:last-child {
